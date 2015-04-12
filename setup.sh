@@ -2,8 +2,8 @@
 # The script will set up expressworks on c9.io
 
 echo "Setting up nvm..."
-# Grab latest v0.11.* node level installed 
-V11_LEVEL = `nvm ls | grep v0.11 | head -1 | cut -f3 -d' '`
+source ~/.nvm/nvm.sh
+V11_LEVEL=v0.11.14
 
 # Set that level as default
 nvm use ${V11_LEVEL}
