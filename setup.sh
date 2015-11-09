@@ -3,7 +3,7 @@
 
 echo "Setting up nvm..."
 source ~/.nvm/nvm.sh
-V11_LEVEL=v0.11.14
+V11_LEVEL=v4.1
 
 # Set that level as default
 nvm use ${V11_LEVEL}
