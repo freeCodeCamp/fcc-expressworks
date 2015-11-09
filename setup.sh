@@ -11,6 +11,11 @@ nvm use ${V11_LEVEL}
 # Set current level to latest v0.11.* level
 nvm alias default ${V11_LEVEL}
 
+# Update c9 express to > v4 due to JSON spacing issue
+echo "Updating express..."
+
+npm uninstall express && npm install express@'>=4.0.0'
+
 echo "Setting up expressworks..."
 
 # Pull expressworks with a longer timeout
