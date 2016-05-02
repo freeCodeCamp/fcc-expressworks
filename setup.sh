@@ -5,6 +5,9 @@ echo "Setting up nvm..."
 source ~/.nvm/nvm.sh
 V11_LEVEL=v4.1
 
+# Install node
+nvm install ${V11_LEVEL}
+
 # Set that level as default
 nvm use ${V11_LEVEL}
 
