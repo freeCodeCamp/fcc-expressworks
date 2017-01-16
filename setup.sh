@@ -23,7 +23,7 @@ echo "Setting up expressworks..."
 
 # Pull expressworks with a longer timeout
 cd ~/workspace
-git clone http://github.com/reddock/expressworks
+git clone https://github.com/reddock/expressworks
 
 # Install expressworks
 npm install -g expressworks/
